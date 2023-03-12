@@ -8,7 +8,6 @@ ul {
   display: flex;
   justify-content: center;
   gap: 5vh;
-
 }
 
 li a {
@@ -16,12 +15,12 @@ li a {
   color: rgb(92, 83, 83);
   padding: 14px 16px;
   text-decoration: none;
-  
 }
 
 li a:hover {
   background-color: #111;
 }
+
 .nav {
   position: fixed;
   top: 0;
@@ -64,7 +63,13 @@ th, td {
   color: #FFFFFF;
   width: 100%;
   max-width: 880px;
+  margin-top: 5rem;
+  /* just added a padding so that its not pushing all the way to the top. */
+  z-index: -1;
+  /* Just put your div under the nav, so you interact with the nav and its elements. :-) */
 }
+
+/* OVERALL, You did an incredible job, Jono, love the Design, minimalism, the bluish shadow, and how neat the code is. Keep it UP!!! */
 
 .profile-image {
   position: relative;
@@ -213,6 +218,6 @@ input[type=submit]:hover {
 
 .contact-section-box {
   border-radius: 5px;
-  background-color: #ffffff;  
+  background-color: #ffffff;
 }
 
